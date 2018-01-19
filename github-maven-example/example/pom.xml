@@ -165,4 +165,16 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+<distributionManagement>
+<repository>
+<id>deployment</id>
+<name>Release</name>
+<url>http://52.66.141.97:8081/#admin/repository/repositories:Repository-Release</url>
+</repository>
+<snapshotRepository>
+<id>deployment</id>
+<name>Snapshot</name>
+<url>http://52.66.141.97:8081/#admin/repository/repositories:Repository-snapshot</url>
+</snapshotRepository>
+</distributionManagement>
 </project>
